@@ -1,0 +1,29 @@
+body{
+    background-color: coral;
+}
+#one{
+    color: thistle;
+}
+#two{
+    color: royalblue;
+}
+#three{
+    color: palegreen;
+}
+#four{
+    color: purple
+}
+
+.bordered{
+    border: 2px solid black;
+}
+.background-black{
+    background-color: black;
+}
+
+.italics{
+    font-style: italic;
+}
+.font{
+    font-family: helvetica;
+}
