@@ -1,0 +1,17 @@
+
+body {
+    background-color: slategray
+    }
+p {
+    color: paleturquoise;
+    font-style: italic;
+}
+li {
+    border: 1px solid black;
+}
+#blue {
+    background-color: lightblue;
+}
+ul li:nth-child(even) {
+    margin-bottom:10px;
+}
