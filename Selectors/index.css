@@ -1,29 +1,36 @@
 body{
     background-color: coral;
+    height: 100vh;
+    overflow: hidden;
 }
-#one{
-    color: thistle;
-}
-#two{
-    color: royalblue;
-}
-#three{
-    color: palegreen;
-}
-#four{
-    color: purple
-}
-
-.bordered{
-    border: 2px solid black;
-}
-.background-black{
+.box{
+    width: 100px;
+    height: 100px;
     background-color: black;
-}
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid red;
+    
 
-.italics{
-    font-style: italic;
 }
-.font{
-    font-family: helvetica;
+.innerbox{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 50%;
+    height: 50px;
+    background-color: blue
+
+}
+.outerbox{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    top: 0px;
+    left: 0px;  
+}
+p:hover{
+    border: 2px solid black;
+    border-radius: 5px;
 }
